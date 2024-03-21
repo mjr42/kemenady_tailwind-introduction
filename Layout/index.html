@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>TailwindCSS Introduction | Layout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <!-- tailwind script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+<!-- MAIN LAYOUT IN TAILWIND CSS-->
+
+    <!-- Default Grid Layout 
+    <div class="relative">
+        <div class="w-full h-full min-h-screen grid grid-cols-3 gap-0 relative">
+            <div class="bg-blue-100"></div>
+            <div class="bg-green-200"></div>
+            <div class="bg-red-300"></div>
+        </div>  
+    </div>
+    -->
+
+    <!-- Default Flex Layout
+    <div class="relative">
+        <div class="w-full h-full min-h-screen flex flex-row gap-0 relative">
+            <div class="bg-blue-300 w-full"></div>
+            <div class="bg-green-400 w-full"></div>
+            <div class="bg-red-500 w-full"></div>
+        </div>  
+    </div>
+    -->
+
+    <!-- Tailwind CSS Responsive Layout 
+    <div class="relative">
+        <div class="w-full h-full min-h-screen grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-0 relative">
+            <div class="bg-blue-100"></div>
+            <div class="bg-green-200"></div>
+            <div class="bg-red-300"></div>
+        </div>  
+    </div>
+    -->
+
+<!-- POSISTIONING ELEMENT / CONTENT INSIDE LAYOUT IN TAILWIND CSS-->
+
+    <!-- Posistioning Content in Horizontal Space 
+    <div class="relative">
+        <div class="w-full h-full relative flex flex-row gap-8 justify-between">
+            <div class="w-32 h-32 bg-red-100"></div>
+            <div class="w-32 h-32 bg-green-100"></div>
+            <div class="w-32 h-32 bg-blue-100"></div>
+        </div>
+    </div>
+    -->
+
+    <!-- Posistioning Content in vertical Space 
+    <div class="relative">
+        <div class="w-full h-full min-h-screen grid grid-cols-3 gap-0 relative">
+            <div class="bg-blue-100 grid content-between">
+                <div class="bg-blue-500 h-32"></div>
+                <div class="bg-blue-500 h-32"></div>
+            </div>
+            <div class="bg-green-200"></div>
+            <div class="bg-red-300"></div>
+        </div>  
+    </div>
+    -->
+
+    <!-- Posistioning Whole Layout 
+    <div class="relative max-w-6xl mx-auto">
+        <div class="w-full h-full min-h-screen grid grid-cols-3 gap-0 relative">
+            <div class="bg-blue-100">
+                <div class="bg-blue-500 h-32 w-32 mx-auto"></div>
+            </div>
+            <div class="bg-green-200"></div>
+            <div class="bg-red-300"></div>
+        </div>  
+    </div>
+    -->
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <!-- tailwind script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <!-- BUTTON IN TAILWIND CSS -->
+    <button class="relative">
+        <div class="text-sm px-4 py-2 relative inline-flex rounded-full bg-blue-200">
+            Button
+        </div>
+    </button>
+    
+    <button class="group">
+        <div class="text-sm px-4 py-2 relative inline-flex rounded-full bg-blue-200 group-hover:scale-110 group-hover:bg-blue-800 group-hover:text-white transition-all duration-300 ease-out">
+            <div class="flex flex-row gap-2">
+                <div>Learn More</div>
+                <div class="grid h-full content-center group-hover:pl-4 transition-all duration-300 ease-out">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="m12 16l4-4l-4-4l-1.4 1.4l1.6 1.6H8v2h4.2l-1.6 1.6zm0 6q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22"/></svg>
+                </div>
+            </div>
+        </div>
+    </button>
+
+    <!-- CARD IN TAILWIND CSS-->
+    <div class="relative">
+        <div class="max-w-md grid content-between rounded-2xl bg-gray-50 px-8 py-8 border mx-auto">
+            <div class="w-full h-full aspect-[4/3] relative">
+                <img src="https://images.unsplash.com/photo-1698913464385-f8f6ecdf1511?q=80&w=1467&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full absolute inset-0 object-cover" />
+            </div>
+            <div class="text-2xl font-medium text-gray-800 leading-tight py-4">
+                Makanan Berbuka Puasa yang Menyegarkan
+            </div>
+            <div class="text-sm text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </div>
+            <div class="text-xs text-gray-300 pt-4">
+                23 Maret 2024
+            </div>
+            <button class="relative inline-flex pt-4">
+                <div class="text-sm px-4 py-2 relative  rounded-full bg-blue-200">
+                    Read More
+                </div>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
